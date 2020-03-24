@@ -1,9 +1,22 @@
 @use "../../theme.scss";
 
-.markboard-preview {
-  border-radius: .3em;
-  border:solid 2px #666;
-  padding: 0 1em;
-  height: 80vh;
+.edit_screen {
+  display:flex;
+  height:100%;
+}
+
+.edit_component,.markboard-preview {
+  box-sizing:border-box;
+  height:100%;
+  margin:0;
+  padding:10px;
+  width:50%;
   overflow-y: scroll;
+}
+
+.edit_component {
+  border:0;
+  border-right:1px solid #ccc;
+  outline:none;
+  resize:none;
 }

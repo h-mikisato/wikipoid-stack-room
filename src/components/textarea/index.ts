@@ -10,8 +10,6 @@ interface TextAreaAttrs {
     label: string;
     labelID: string;
     text: string;
-    height?: string;
-    updateState: (text: string) => void;
 }
 
 export class TextArea implements m.ClassComponent<TextAreaAttrs> {
@@ -34,9 +32,7 @@ export class TextArea implements m.ClassComponent<TextAreaAttrs> {
         return m("label.mdc-text-field.mdc-text-field--textarea.mdc-text-field--fullwidth", [
             m("textarea.mdc-text-field__input", {
                 "aria-labelledby": vnode.attrs.labelID,
-                style:`height: ${vnode.attrs.height}`,
                 value: vnode.attrs.text,
-                oninput: (e: HTMLElementEvent<HTMLInputElement>) => {vnode.attrs.updateState(e.target.value)},
             }),
             m("div.mdc-notched-outline", [
                 m("div.mdc-notched-outline__leading"),

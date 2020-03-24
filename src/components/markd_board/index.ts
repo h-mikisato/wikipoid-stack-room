@@ -1,7 +1,7 @@
 import "./index.scss"
 import * as m from 'mithril'
 import * as marked from 'marked'
-import * as DOMPurify from 'DOMPurify'
+import * as DOMPurify from 'dompurify'
 
 interface MarkdBoardAttrs {
     markdown: string;
