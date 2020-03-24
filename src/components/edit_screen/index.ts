@@ -20,7 +20,6 @@ export class EditScreen {
                         labelID: "edit_screen_input",
                         text: this.text,
                         height: "80vh",
-                        additionalClass: ".markdown-inputarea",
                         updateState: this.update,
                     })
                 ]),

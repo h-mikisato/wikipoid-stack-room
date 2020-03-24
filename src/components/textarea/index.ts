@@ -11,7 +11,6 @@ interface TextAreaAttrs {
     labelID: string;
     text: string;
     height?: string;
-    additionalClass: string;
     updateState: (text: string) => void;
 }
 
