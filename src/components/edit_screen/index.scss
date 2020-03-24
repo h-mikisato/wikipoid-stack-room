@@ -1,0 +1,9 @@
+@use "../../theme.scss";
+
+.markboard-preview {
+  border-radius: .3em;
+  border:solid 2px #666;
+  padding: 0 1em;
+  height: 80vh;
+  overflow-y: scroll;
+}
