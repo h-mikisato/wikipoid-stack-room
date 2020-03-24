@@ -1,5 +1,9 @@
 $mdc-typography-font-family: unquote("M+ C Type-1 (basic latin) Regular, M+ Type-1 (general-j) Regular, sans-serif");
+
+$primary-color: #339966;
+$secondary-color: #803399;
+
 @use "@material/theme" with (
-  $primary: #339966,
-  $secondary: #803399,
+  $primary: $primary-color,
+  $secondary: $secondary-color,
 );
