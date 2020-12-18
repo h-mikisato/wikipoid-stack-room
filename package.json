@@ -3,7 +3,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "dompurify": "^2.0.8",
+    "dompurify": "^2.0.17",
     "marked": "^0.8.2",
     "material-components-web": "^5.1.0",
     "mithril": "^2.0.4"
