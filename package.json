@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "dompurify": "^2.0.8",
-    "marked": "^0.8.2",
+    "marked": "^4.0.10",
     "material-components-web": "^5.1.0",
     "mithril": "^2.0.4"
   },
